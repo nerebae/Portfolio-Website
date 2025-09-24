@@ -20,9 +20,6 @@ p {
   font-size: 20px;
 }
 
-h1 {
-  color-scheme: rgb(255, 99, 71);
-}
 
 a {
   text-align: center;
@@ -116,6 +113,7 @@ span {
   background: rgba(255, 255, 255, 0.3);
 }
 
+/* button changes colour when mouse hovers over it */
 .windowHeader>span.winclose:hover {
   background: #f15454;
 }
