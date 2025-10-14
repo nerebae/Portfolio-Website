@@ -36,54 +36,94 @@
     </div>
     <!-- content of first window -->
     <div class="wincontent">
-      Hello, my name is Nerea, and I’m a Computer Science graduate from Royal Holloway. I’m a motivated and curious
-      person with a strong interest in web development, I enjoy tackling challenges, learning from others, and
-      contributing to projects that have a real world impact.
-    </div>
-    <!-- second window -->
-    <div class="windowHeader" id="myWindowHeader">
-      <h2>Languages</h2>
-      <span title="Minimize" class="winminimize">
-        <span></span>
-      </span>
-      <!-- maximise buttoon -->
-      <span title="Maximize" class="winmaximize">
-        <span></span>
-        <span></span>
-      </span>
-      <span title="Close" class="winclose">x</span>
-    </div>
+      <p>Hello, my name is Nerea, and I’m a Computer Science graduate from Royal Holloway. I’m a motivated and curious
+        person with a strong interest in web development, I enjoy tackling challenges, learning from others, and
+        contributing to projects that have a real world impact.
+      </p>
+      <div class="window ui-draggable ui-draggable-handle" data-title="About Me" data-id="0" style="z-index: 999;"
+        id="window0">
+        <!-- first window -->
+        <div class="windowHeader" id="myWindowHeader">
+          <h2>Contact</h2>
+          <!-- minimise button -->
+          <span title="Minimize" class="winminimize">
+            <span></span>
+          </span>
+          <span title="Maximize" class="winmaximize">
+            <span></span>
+            <span></span>
+          </span>
+          <span title="Close" class="winclose">x</span>
+        </div>
+        <!-- content of first window -->
+        <div class="wincontent">
+          <span class="material-symbols-outlined">
+            globe_location_pin
+          </span>
+          <p>Poole, England </p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path
+              d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0zM8 8h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.1 3.4 6.1 7.8V24H18V16c0-1.9 0-4.4-2.7-4.4-2.7 0-3.1 2.1-3.1 4.2V24H8z" />
+          </svg>
+          <a href="http://www.linkedin.com/in/nerea-valdivieso-arevalo">
+            <p>LinkedIn</p>
+          </a>
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+          <p> eliovaldivieso1975@gmail.com </p>
+          <a href="https://github.com/nerebae/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="github-icon">
+              <path
+                d="M12 0C5.37 0 0 5.4 0 12.09c0 5.34 3.44 9.86 8.21 11.47.6.11.82-.27.82-.59 0-.29-.01-1.07-.02-2.1-3.34.73-4.05-1.63-4.05-1.63-.55-1.42-1.35-1.8-1.35-1.8-1.1-.77.09-.75.09-.75 1.22.09 1.86 1.27 1.86 1.27 1.08 1.87 2.84 1.33 3.53 1.02.11-.8.42-1.34.76-1.65-2.67-.31-5.47-1.36-5.47-6.06 0-1.34.47-2.43 1.24-3.29-.13-.31-.54-1.57.12-3.28 0 0 1-.33 3.3 1.25a11.2 11.2 0 0 1 6 0c2.3-1.58 3.3-1.25 3.3-1.25.66 1.71.25 2.97.12 3.28.77.86 1.24 1.95 1.24 3.29 0 4.72-2.8 5.74-5.48 6.05.43.38.82 1.12.82 2.26 0 1.63-.02 2.95-.02 3.35 0 .32.22.7.83.58C20.57 21.94 24 17.42 24 12.09 24 5.4 18.63 0 12 0z" />
+            </svg>
+            <p>GitHub</p>
+          </a>
+        </div>
+        <!-- second window -->
+        <div class="windowHeader" id="myWindowHeader">
+          <h2>Languages</h2>
+          <span title="Minimize" class="winminimize">
+            <span></span>
+          </span>
+          <!-- maximise buttoon -->
+          <span title="Maximize" class="winmaximize">
+            <span></span>
+            <span></span>
+          </span>
+          <span title="Close" class="winclose">x</span>
+        </div>
 
-    <div class="wincontent">
-      <!-- list -->
-      <ul>
-        <li>Spanish - Native</li>
-        <li>English - Fluent</li>
-      </ul>
-    </div>
+        <div class="wincontent">
+          <span class="material-symbols-outlined">
+            language
+          </span>
+          <p>Spanish - Native</p>
+          <p>English - Fluent </p>
+        </div>
 
-    <div class="windowHeader" id="myWindowHeader">
-      <h2>Skills</h2>
-      <span title="Minimize" class="winminimize">
-        <span></span>
-      </span>
-      <span title="Maximize" class="winmaximize">
-        <span></span>
-        <span></span>
-      </span>
-      <!-- close button -->
-      <span title="Close" class="winclose">x</span>
-    </div>
+        <div class="windowHeader" id="myWindowHeader">
+          <h2>Skills</h2>
+          <span title="Minimize" class="winminimize">
+            <span></span>
+          </span>
+          <span title="Maximize" class="winmaximize">
+            <span></span>
+            <span></span>
+          </span>
+          <!-- close button -->
+          <span title="Close" class="winclose">x</span>
+        </div>
 
-    <div class="wincontent">
-      <ul>
-        <li>Programming Languages:Python, Java, JavaScript, TypeScript, HTML, CSS</li>
-        <li>Frameworks & Libraries:React Native, Expo</li>
-        <li>Data & Tools:SQL, Excel, Git/GitHub</li>
-        <li>Design & UI:Canva, Figma</li>
-      </ul>
-    </div>
-  </div>
+        <div class="wincontent">
+          <ul>
+            <li>Programming Languages:Python, Java, JavaScript, TypeScript, HTML, CSS</li>
+            <li>Frameworks & Libraries:React Native, Expo</li>
+            <li>Data & Tools:SQL, Excel, Git/GitHub</li>
+            <li>Design & UI:Canva, Figma</li>
+          </ul>
+        </div>
+      </div>
 
 </body>
 
